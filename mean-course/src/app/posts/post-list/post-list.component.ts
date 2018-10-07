@@ -11,11 +11,6 @@ import { PostsService } from '../posts.service';
 })
 export class PostListComponent implements OnInit, OnDestroy {
 
-  // posts = [
-  //   {title: 'First Post', content: 'First post content'},
-  //   {title: 'Second Post', content: 'Second post content'},
-  //   {title: 'Third Post', content: 'Third post content'}
-  // ];
   posts: Post[] = [];
   isLoading = false;
   private postsSub: Subscription;
